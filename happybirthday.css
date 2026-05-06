@@ -188,3 +188,22 @@ body {
   color: #c9860a;
   font-style: italic;
 }
+.music-btn-container {
+  margin-top: 30px;
+}
+
+.music-btn {
+  background: #fff0e0;
+  border: 2px solid #c9860a;
+  color: #c9860a;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
